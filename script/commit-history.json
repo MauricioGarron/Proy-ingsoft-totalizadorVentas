@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "FullMaury",
+    "commit": {
+      "date": "2026-03-05T14:18:45.000Z",
+      "message": "feat: ingresar y mostrar cant de items",
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 69,
+      "additions": 36,
+      "deletions": 33,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
