@@ -90,9 +90,31 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "96df4dad3b97c64f32817e051024a602a83d279c",
     "commitName": "feat: precio por item",
     "commitTimestamp": 1772864265287,
     "testId": 3
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 2,
+    "numTotalTests": 6,
+    "timestamp": 1772864381269,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1772864411337,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: funcionalidad de descuento por monto",
+    "commitTimestamp": 1772864545111,
+    "testId": 4
   }
 ]

@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "96df4dad3b97c64f32817e051024a602a83d279c",
     "author": "Mauricio",
     "commit": {
       "date": "2026-03-07T06:17:44.000Z",
       "message": "feat: precio por item",
-      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/96df4dad3b97c64f32817e051024a602a83d279c"
     },
     "stats": {
       "total": 32,
@@ -72,6 +72,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mauricio",
+    "commit": {
+      "date": "2026-03-07T06:22:24.000Z",
+      "message": "feat: funcionalidad de descuento por monto",
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 24,
+      "deletions": 1,
+      "date": "2026-03-07"
+    },
+    "coverage": 85.71,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }
