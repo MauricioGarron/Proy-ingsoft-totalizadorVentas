@@ -1,4 +1,4 @@
-import mostrarCantidad from "./cantidadItems.js";
+import mostrarCantidad from "./calculadora.js";
 
 describe("Mostrar cantidad de items", () => {
   it("debería devolver la cantidad ingresada", () => {

@@ -24,9 +24,31 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ffb182611cb01220bbbf5c752414b073268d2588",
     "commitName": "feat: ingresar y mostrar cant de items",
     "commitTimestamp": 1772720328501,
     "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1772841037994,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1772863129846,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: cambio y orden en carpetas",
+    "commitTimestamp": 1772863407657,
+    "testId": 1
   }
 ]

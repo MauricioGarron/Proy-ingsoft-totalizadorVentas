@@ -1,17 +1,36 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "ffb182611cb01220bbbf5c752414b073268d2588",
     "author": "FullMaury",
     "commit": {
       "date": "2026-03-05T14:18:45.000Z",
       "message": "feat: ingresar y mostrar cant de items",
-      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/ffb182611cb01220bbbf5c752414b073268d2588"
     },
     "stats": {
       "total": 69,
       "additions": 36,
       "deletions": 33,
       "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mauricio",
+    "commit": {
+      "date": "2026-03-07T06:03:27.000Z",
+      "message": "refactor: cambio y orden en carpetas",
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
+      "date": "2026-03-07"
     },
     "coverage": 100,
     "test_count": 2,

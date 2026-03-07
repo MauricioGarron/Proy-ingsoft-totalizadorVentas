@@ -1,4 +1,4 @@
-import mostrarCantidad from "./cantidadItems.js";
+import mostrarCantidad from "./calculadora.js";
 
 const cantidadInput = document.querySelector("#cantidad-items");
 const form = document.querySelector("#cantidad-form");
