@@ -112,9 +112,39 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a6543541d268296672c22527e1c1e5d0954b1eaf",
     "commitName": "feat: funcionalidad de descuento por monto",
     "commitTimestamp": 1772864545111,
     "testId": 4
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 3,
+    "numTotalTests": 9,
+    "timestamp": 1772865064137,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1772865102574,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1772865797549,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar descuento e impuesto",
+    "commitTimestamp": 1772866006425,
+    "testId": 5
   }
 ]

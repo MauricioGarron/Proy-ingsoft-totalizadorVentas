@@ -11,18 +11,35 @@
     Cantidad de items:
     <input type="number" id="cantidad-items" />
   </label>
-<br>
-<br>
+
+<br><br>
+
   <label>
     Precio por item:
     <input type="number" id="precio-item" /> 
   </label>
 
-  <br><br><button type="submit">Calcular</button>
+<br><br>
+
+  <!-- agregado -->
+  <label>
+    Estado:
+    <select id="estado">
+      <option value="CA">CA</option>
+      <option value="UT">UT</option>
+      <option value="NV">NV</option>
+      <option value="TX">TX</option>
+      <option value="AL">AL</option>
+    </select>
+  </label>
+
+  <br><br>
+  <button type="submit">Calcular</button>
 </form>
 
-<br><div id="resultado"></div>
+<br>
+<div id="resultado"></div>
 
-    <script type="module" src="./src/presenter.js"></script>
+<script type="module" src="./src/presenter.js"></script>
   </body>
 </html>

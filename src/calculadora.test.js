@@ -1,6 +1,7 @@
 import mostrarCantidad from "./calculadora.js";
 import { calcularPrecioBase } from "./calculadora.js";
 import { calcularDescuentoPorMonto } from "./calculadora.js";
+import { calcularImpuestoPorEstado } from "./calculadora.js";
 
 describe("Mostrar cantidad de items", () => {
   it("debería devolver la cantidad ingresada", () => {
@@ -30,6 +31,22 @@ describe("Descuento por monto de compra", () => {
 
   it("debería aplicar 5% de descuento para orden mayor o igual a 3000", () => {
     expect(calcularDescuentoPorMonto(3000)).toEqual(150);
+  });
+
+});
+
+describe("Impuesto por estado", () => {
+
+  it("debería calcular impuesto para CA", () => {
+    expect(calcularImpuestoPorEstado(100, "CA")).toEqual(8.25);
+  });
+
+  it("debería calcular impuesto para TX", () => {
+    expect(calcularImpuestoPorEstado(200, "TX")).toEqual(12.5);
+  });
+
+  it("debería calcular impuesto para UT", () => {
+    expect(calcularImpuestoPorEstado(100, "UT")).toEqual(6.65);
   });
 
 });
