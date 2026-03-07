@@ -7,14 +7,21 @@
     <h1>Totalizador de Venta</h1>
 
   <form id="cantidad-form">
-    <label>
-      Ingresar cantidad de items:
-      <input type="number" id="cantidad-items" />
-    </label>
-    <button type="submit">Mostrar</button>
-  </form>
+  <label>
+    Cantidad de items:
+    <input type="number" id="cantidad-items" />
+  </label>
+<br>
+<br>
+  <label>
+    Precio por item:
+    <input type="number" id="precio-item" /> 
+  </label>
 
-  <div id="resultado"></div>
+  <br><br><button type="submit">Calcular</button>
+</form>
+
+<br><div id="resultado"></div>
 
     <script type="module" src="./src/presenter.js"></script>
   </body>

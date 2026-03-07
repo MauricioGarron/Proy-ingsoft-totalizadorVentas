@@ -1,14 +1,17 @@
-import mostrarCantidad from "./calculadora.js";
+import { calcularPrecioBase } from "./calculadora.js";
 
-const cantidadInput = document.querySelector("#cantidad-items");
 const form = document.querySelector("#cantidad-form");
+const cantidadInput = document.querySelector("#cantidad-items");
+const precioInput = document.querySelector("#precio-item");
 const resultado = document.querySelector("#resultado");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
   const cantidad = Number(cantidadInput.value);
-  const cantidadMostrada = mostrarCantidad(cantidad);
+  const precio = Number(precioInput.value);
 
-  resultado.innerHTML = `Cantidad mostrada: ${cantidadMostrada}`;
+  const precioBase = calcularPrecioBase(cantidad, precio);
+
+  resultado.innerHTML = `Precio base: ${precioBase}`;
 });

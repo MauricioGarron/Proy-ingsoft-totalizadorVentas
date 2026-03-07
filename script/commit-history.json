@@ -38,17 +38,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "db6a9325bfdefc50a3ac9318fa8b0be79864797c",
     "author": "Mauricio",
     "commit": {
       "date": "2026-03-07T06:09:51.000Z",
       "message": "fix: error de carpetas",
-      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/db6a9325bfdefc50a3ac9318fa8b0be79864797c"
     },
     "stats": {
       "total": 15,
       "additions": 15,
       "deletions": 0,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mauricio",
+    "commit": {
+      "date": "2026-03-07T06:17:44.000Z",
+      "message": "feat: precio por item",
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 32,
+      "additions": 21,
+      "deletions": 11,
       "date": "2026-03-07"
     },
     "coverage": 100,

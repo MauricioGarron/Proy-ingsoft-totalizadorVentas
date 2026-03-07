@@ -76,9 +76,23 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "db6a9325bfdefc50a3ac9318fa8b0be79864797c",
     "commitName": "fix: error de carpetas",
     "commitTimestamp": 1772863792212,
     "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1772864117321,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: precio por item",
+    "commitTimestamp": 1772864265287,
+    "testId": 3
   }
 ]
