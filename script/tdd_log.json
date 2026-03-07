@@ -46,9 +46,39 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e965cecf008ea2bd757346e342d82fe33811fc70",
     "commitName": "refactor: cambio y orden en carpetas",
     "commitTimestamp": 1772863407657,
     "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 2,
+    "numTotalTests": 4,
+    "timestamp": 1772863569220,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1772863582848,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1772863617260,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: error de carpetas",
+    "commitTimestamp": 1772863792212,
+    "testId": 2
   }
 ]
