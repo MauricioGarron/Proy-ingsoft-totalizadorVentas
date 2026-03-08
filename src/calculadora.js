@@ -30,4 +30,16 @@ export function calcularImpuestoPorEstado(total, estado) {
   return total * tasa;
 }
 
+export function calcularDescuentoCategoria(total, categoria) {
+  const descuentos = {
+    alimentos: 0.02,
+    material: 0.015,
+    electronicos: 0.01
+  };
+
+  const tasa = descuentos[categoria] || 0;
+
+  return total * tasa;
+}
+
 export default mostrarCantidad;

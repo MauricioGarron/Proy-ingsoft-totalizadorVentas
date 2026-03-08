@@ -2,6 +2,7 @@ import mostrarCantidad from "./calculadora.js";
 import { calcularPrecioBase } from "./calculadora.js";
 import { calcularDescuentoPorMonto } from "./calculadora.js";
 import { calcularImpuestoPorEstado } from "./calculadora.js";
+import { calcularDescuentoCategoria } from "./calculadora.js";
 
 describe("Mostrar cantidad de items", () => {
   it("debería devolver la cantidad ingresada", () => {
@@ -47,6 +48,26 @@ describe("Impuesto por estado", () => {
 
   it("debería calcular impuesto para UT", () => {
     expect(calcularImpuestoPorEstado(100, "UT")).toEqual(6.65);
+  });
+
+});
+
+describe("Descuento por categoría", () => {
+
+  it("aplica 2% de descuento para alimentos", () => {
+    expect(calcularDescuentoCategoria(1000, "alimentos")).toEqual(20);
+  });
+
+  it("aplica 1.5% para material de escritorio", () => {
+    expect(calcularDescuentoCategoria(1000, "material")).toEqual(15);
+  });
+
+  it("aplica 1% para electrónicos", () => {
+    expect(calcularDescuentoCategoria(1000, "electronicos")).toEqual(10);
+  });
+
+  it("no aplica descuento para otros", () => {
+    expect(calcularDescuentoCategoria(1000, "varios")).toEqual(0);
   });
 
 });

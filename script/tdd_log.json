@@ -142,9 +142,31 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a62707089c6f38c6a5a2404058d74810e9f7ebd9",
     "commitName": "feat: agregar descuento e impuesto",
     "commitTimestamp": 1772866006425,
     "testId": 5
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 4,
+    "numTotalTests": 13,
+    "timestamp": 1772978530613,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1772978573335,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: mejoras de codigo en presenter con descuentos",
+    "commitTimestamp": 1772979035582,
+    "testId": 6
   }
 ]
