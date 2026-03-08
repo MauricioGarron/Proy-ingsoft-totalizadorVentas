@@ -164,9 +164,31 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7e73112cdf32627c131eed1192796221291c73ec",
     "commitName": "refactor: mejoras de codigo en presenter con descuentos",
     "commitTimestamp": 1772979035582,
     "testId": 6
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1772989667727,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1772989818191,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar descuento adicional por categoria",
+    "commitTimestamp": 1772990143940,
+    "testId": 7
   }
 ]

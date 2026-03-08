@@ -114,17 +114,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7e73112cdf32627c131eed1192796221291c73ec",
     "author": "Mauricio",
     "commit": {
       "date": "2026-03-08T14:10:34.000Z",
       "message": "refactor: mejoras de codigo en presenter con descuentos",
-      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/7e73112cdf32627c131eed1192796221291c73ec"
     },
     "stats": {
       "total": 54,
       "additions": 45,
       "deletions": 9,
+      "date": "2026-03-08"
+    },
+    "coverage": 92.31,
+    "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mauricio",
+    "commit": {
+      "date": "2026-03-08T17:15:43.000Z",
+      "message": "feat: implementar descuento adicional por categoria",
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 15,
+      "deletions": 1,
       "date": "2026-03-08"
     },
     "coverage": 92.31,

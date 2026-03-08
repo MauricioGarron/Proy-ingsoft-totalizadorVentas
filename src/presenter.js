@@ -24,7 +24,7 @@ form.addEventListener("submit", (event) => {
   const precioBase = calcularPrecioBase(cantidad, precio);
   const descuentoMonto = calcularDescuentoPorMonto(precioBase); 
   const descuentoCategoria = calcularDescuentoCategoria(precioBase, categoria);
-  const subtotal = precioBase - descuento - descuentoCategoria; 
+  const subtotal = precioBase - descuentoMonto - descuentoCategoria; 
   const impuesto = calcularImpuestoPorEstado(subtotal, estado); 
   const total = subtotal + impuesto; 
 
