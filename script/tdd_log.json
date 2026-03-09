@@ -186,9 +186,39 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "72b13a87c3d2212e227f9b264949d40f869697e1",
     "commitName": "feat: implementar descuento adicional por categoria",
     "commitTimestamp": 1772990143940,
     "testId": 7
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 5,
+    "numTotalTests": 18,
+    "timestamp": 1773079320448,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1773079420442,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1773079834495,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Aplicar impuesto adicional por categoria",
+    "commitTimestamp": 1773080319494,
+    "testId": 8
   }
 ]

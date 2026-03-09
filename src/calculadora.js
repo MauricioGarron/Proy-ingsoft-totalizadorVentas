@@ -42,4 +42,17 @@ export function calcularDescuentoCategoria(total, categoria) {
   return total * tasa;
 }
 
+export function calcularImpuestoCategoria(total, categoria) {
+  const impuestos = {
+    alcohol: 0.07,
+    muebles: 0.03,
+    electronicos: 0.04,
+    vestimenta: 0.02
+  };
+
+  const tasa = impuestos[categoria] || 0;
+
+  return total * tasa;
+}
+
 export default mostrarCantidad;

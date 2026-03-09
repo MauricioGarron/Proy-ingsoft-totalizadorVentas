@@ -2,7 +2,9 @@ import {
   calcularPrecioBase,
   calcularDescuentoPorMonto,
   calcularImpuestoPorEstado,
-  calcularDescuentoCategoria
+  calcularDescuentoCategoria,
+  calcularImpuestoCategoria
+
 } from "./calculadora.js";
 
 const form = document.querySelector("#cantidad-form");
@@ -25,14 +27,16 @@ form.addEventListener("submit", (event) => {
   const descuentoMonto = calcularDescuentoPorMonto(precioBase); 
   const descuentoCategoria = calcularDescuentoCategoria(precioBase, categoria);
   const subtotal = precioBase - descuentoMonto - descuentoCategoria; 
+  const impuestoCategoria = calcularImpuestoCategoria(subtotal, categoria);
   const impuesto = calcularImpuestoPorEstado(subtotal, estado); 
-  const total = subtotal + impuesto; 
+  const total = subtotal + impuesto + impuestoCategoria; 
 
   resultado.innerHTML = `
     Precio base: ${precioBase} <br>
     Descuento Monto: ${descuentoMonto} <br>
     Descuento Categoria: ${descuentoCategoria} <br>
     Subtotal: ${subtotal} <br>
+    Impuesto Categoria: ${impuestoCategoria} <br>
     Impuesto (${estado}): ${impuesto} <br>
     Total: ${total}
   `;

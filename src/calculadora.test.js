@@ -3,6 +3,7 @@ import { calcularPrecioBase } from "./calculadora.js";
 import { calcularDescuentoPorMonto } from "./calculadora.js";
 import { calcularImpuestoPorEstado } from "./calculadora.js";
 import { calcularDescuentoCategoria } from "./calculadora.js";
+import { calcularImpuestoCategoria } from "./calculadora.js";
 
 describe("Mostrar cantidad de items", () => {
   it("debería devolver la cantidad ingresada", () => {
@@ -71,3 +72,28 @@ describe("Descuento por categoría", () => {
   });
 
 });
+
+describe("Impuesto adicional por categoría", () => {
+
+  it("aplica 7% para bebidas alcohólicas", () => {
+    expect(calcularImpuestoCategoria(1000, "alcohol")).toEqual(70);
+  });
+
+  it("aplica 3% para muebles", () => {
+    expect(calcularImpuestoCategoria(1000, "muebles")).toEqual(30);
+  });
+
+  it("aplica 4% para electrónicos", () => {
+    expect(calcularImpuestoCategoria(1000, "electronicos")).toEqual(40);
+  });
+
+  it("aplica 2% para vestimenta", () => {
+    expect(calcularImpuestoCategoria(1000, "vestimenta")).toEqual(20);
+  });
+
+  it("no aplica impuesto adicional para alimentos", () => {
+    expect(calcularImpuestoCategoria(1000, "alimentos")).toEqual(0);
+  });
+
+});
+

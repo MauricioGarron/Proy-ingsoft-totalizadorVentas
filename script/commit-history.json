@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "72b13a87c3d2212e227f9b264949d40f869697e1",
     "author": "Mauricio",
     "commit": {
       "date": "2026-03-08T17:15:43.000Z",
       "message": "feat: implementar descuento adicional por categoria",
-      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/72b13a87c3d2212e227f9b264949d40f869697e1"
     },
     "stats": {
       "total": 16,
@@ -148,6 +148,25 @@
     },
     "coverage": 92.31,
     "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Grizzz88",
+    "commit": {
+      "date": "2026-03-09T18:18:37.000Z",
+      "message": "Aplicar impuesto adicional por categoria",
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 14084,
+      "additions": 4285,
+      "deletions": 9799,
+      "date": "2026-03-09"
+    },
+    "coverage": 93.75,
+    "test_count": 18,
     "failed_tests": 0,
     "conclusion": "success"
   }
