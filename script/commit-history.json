@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d866427d6f87e0634327735f42eab0640d2c0fc0",
     "author": "Mauricio",
     "commit": {
       "date": "2026-03-09T21:07:17.000Z",
       "message": "feat: agregar validacion de datos de entrada",
-      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/d866427d6f87e0634327735f42eab0640d2c0fc0"
     },
     "stats": {
       "total": 60,
@@ -319,6 +319,25 @@
     },
     "coverage": 97.78,
     "test_count": 39,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mauricio",
+    "commit": {
+      "date": "2026-03-09T21:25:15.000Z",
+      "message": "feat: completar los descuentos por monnto",
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 37,
+      "additions": 30,
+      "deletions": 7,
+      "date": "2026-03-09"
+    },
+    "coverage": 100,
+    "test_count": 42,
     "failed_tests": 0,
     "conclusion": "success"
   }

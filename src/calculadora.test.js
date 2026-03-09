@@ -35,6 +35,17 @@ describe("Descuento por monto de compra", () => {
     expect(calcularDescuentoPorMonto(3000)).toEqual(150);
   });
 
+  it("debería aplicar 7% de descuento para orden mayor o igual a 7000", () => {
+    expect(calcularDescuentoPorMonto(7000)).toEqual(490);
+  });
+
+  it("debería aplicar 10% de descuento para orden mayor o igual a 10000", () => {
+    expect(calcularDescuentoPorMonto(10000)).toEqual(1000);
+  });
+
+  it("debería aplicar 15% de descuento para orden mayor o igual a 30000", () => {
+    expect(calcularDescuentoPorMonto(30000)).toEqual(4500);
+  });
 });
 
 describe("Impuesto por estado", () => {
@@ -206,3 +217,4 @@ describe("Validación de datos de entrada", () => {
   });
 
 });
+

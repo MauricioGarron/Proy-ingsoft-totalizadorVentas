@@ -7,13 +7,22 @@ export function calcularPrecioBase(cantidad, precio) {
 }
 
 export function calcularDescuentoPorMonto(total) {
-  if (total >= 3000) {
-    return total * 0.05;
+
+  let descuento = 0;
+
+  if (total >= 30000) {
+    descuento = total * 0.15;
+  } else if (total >= 10000) {
+    descuento = total * 0.10;
+  } else if (total >= 7000) {
+    descuento = total * 0.07;
+  } else if (total >= 3000) {
+    descuento = total * 0.05;
+  } else if (total >= 1000) {
+    descuento = total * 0.03;
   }
-  if (total >= 1000) {
-    return total * 0.03;
-  }
-  return 0;
+
+  return Number(descuento.toFixed(2));
 }
 
 export function calcularImpuestoPorEstado(total, estado) {
@@ -114,5 +123,7 @@ export function validarDatos(cantidad, precio, peso) {
 
   return null;
 }
+
+
 
 export default mostrarCantidad;

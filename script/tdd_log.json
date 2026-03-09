@@ -408,9 +408,71 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d866427d6f87e0634327735f42eab0640d2c0fc0",
     "commitName": "feat: agregar validacion de datos de entrada",
     "commitTimestamp": 1773090437705,
     "testId": 16
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 3,
+    "numTotalTests": 42,
+    "timestamp": 1773090978592,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 0,
+    "numTotalTests": 0,
+    "timestamp": 1773090992550,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 0,
+    "numTotalTests": 0,
+    "timestamp": 1773091097111,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 0,
+    "numTotalTests": 0,
+    "timestamp": 1773091127109,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 41,
+    "failedTests": 1,
+    "numTotalTests": 42,
+    "timestamp": 1773091170154,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 41,
+    "failedTests": 1,
+    "numTotalTests": 42,
+    "timestamp": 1773091263151,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 0,
+    "numTotalTests": 42,
+    "timestamp": 1773091276297,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: completar los descuentos por monnto",
+    "commitTimestamp": 1773091516390,
+    "testId": 17
   }
 ]
