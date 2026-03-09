@@ -470,9 +470,23 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6b87f430f980b313230b641cf8d6028bb79ff193",
     "commitName": "feat: completar los descuentos por monnto",
     "commitTimestamp": 1773091516390,
     "testId": 17
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 0,
+    "numTotalTests": 42,
+    "timestamp": 1773091792716,
+    "success": true,
+    "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style: agregar diseno verde y negro al proyecto",
+    "commitTimestamp": 1773091987349,
+    "testId": 18
   }
 ]

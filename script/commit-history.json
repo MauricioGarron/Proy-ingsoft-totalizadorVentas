@@ -323,17 +323,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6b87f430f980b313230b641cf8d6028bb79ff193",
     "author": "Mauricio",
     "commit": {
       "date": "2026-03-09T21:25:15.000Z",
       "message": "feat: completar los descuentos por monnto",
-      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/6b87f430f980b313230b641cf8d6028bb79ff193"
     },
     "stats": {
       "total": 37,
       "additions": 30,
       "deletions": 7,
+      "date": "2026-03-09"
+    },
+    "coverage": 100,
+    "test_count": 42,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mauricio",
+    "commit": {
+      "date": "2026-03-09T21:33:06.000Z",
+      "message": "style: agregar diseno verde y negro al proyecto",
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 85,
+      "additions": 85,
+      "deletions": 0,
       "date": "2026-03-09"
     },
     "coverage": 100,
