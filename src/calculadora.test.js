@@ -166,3 +166,21 @@ describe("Descuento en costo de envío por tipo de cliente", () => {
   });
 
 });
+
+import { calcularDescuentoEspecialCliente } from "./calculadora.js";
+
+test("cliente recurrente alimentos mayor a 3000 recibe descuento 100", () => {
+  expect(calcularDescuentoEspecialCliente(3500, "recurrente", "alimentos")).toBe(100);
+});
+
+test("cliente especial electronicos mayor a 7000 recibe descuento 200", () => {
+  expect(calcularDescuentoEspecialCliente(8000, "especial", "electronicos")).toBe(200);
+});
+
+test("cliente recurrente alimentos menor a 3000 no recibe descuento", () => {
+  expect(calcularDescuentoEspecialCliente(2000, "recurrente", "alimentos")).toBe(0);
+});
+
+test("cliente normal no recibe descuento especial", () => {
+  expect(calcularDescuentoEspecialCliente(8000, "normal", "electronicos")).toBe(0);
+});

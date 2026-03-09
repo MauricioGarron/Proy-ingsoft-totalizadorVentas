@@ -85,4 +85,17 @@ export function calcularDescuentoEnvioCliente(costoEnvio, cliente) {
   return costoEnvio * tasa;
 }
 
+export function calcularDescuentoEspecialCliente(precioBase, cliente, categoria) {
+
+  if (cliente === "recurrente" && categoria === "alimentos" && precioBase > 3000) {
+    return 100;
+  }
+
+  if (cliente === "especial" && categoria === "electronicos" && precioBase > 7000) {
+    return 200;
+  }
+
+  return 0;
+}
+
 export default mostrarCantidad;

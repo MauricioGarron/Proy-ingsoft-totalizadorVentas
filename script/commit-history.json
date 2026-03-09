@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8dbd4da2a97db2317fa4bfd10654bb881cc8b514",
     "author": "Grizzz88",
     "commit": {
       "date": "2026-03-09T19:47:05.000Z",
       "message": "feat: implementar descuento de envio por cliente",
-      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/8dbd4da2a97db2317fa4bfd10654bb881cc8b514"
     },
     "stats": {
       "total": 14,
@@ -281,6 +281,25 @@
     },
     "coverage": 96.97,
     "test_count": 31,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Grizzz88",
+    "commit": {
+      "date": "2026-03-09T19:55:49.000Z",
+      "message": "feat: aplicar descuento fijo especial por cliente",
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 38,
+      "additions": 36,
+      "deletions": 2,
+      "date": "2026-03-09"
+    },
+    "coverage": 97.37,
+    "test_count": 35,
     "failed_tests": 0,
     "conclusion": "success"
   }

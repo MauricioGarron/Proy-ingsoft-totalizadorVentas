@@ -340,9 +340,47 @@
     "testId": 13
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8dbd4da2a97db2317fa4bfd10654bb881cc8b514",
     "commitName": "feat: implementar descuento de envio por cliente",
     "commitTimestamp": 1773085626935,
     "testId": 14
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1773085886448,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 4,
+    "numTotalTests": 35,
+    "timestamp": 1773085910754,
+    "success": false,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 0,
+    "numTotalTests": 35,
+    "timestamp": 1773085957692,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 0,
+    "numTotalTests": 35,
+    "timestamp": 1773086104221,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento fijo especial por cliente",
+    "commitTimestamp": 1773086151268,
+    "testId": 15
   }
 ]
