@@ -184,3 +184,25 @@ test("cliente recurrente alimentos menor a 3000 no recibe descuento", () => {
 test("cliente normal no recibe descuento especial", () => {
   expect(calcularDescuentoEspecialCliente(8000, "normal", "electronicos")).toBe(0);
 });
+
+import { validarDatos } from "./calculadora.js";
+
+describe("Validación de datos de entrada", () => {
+
+  test("cantidad negativa debe dar error", () => {
+    expect(validarDatos(-1, 10, 5)).toBe("La cantidad debe ser mayor que 0");
+  });
+
+  test("precio negativo debe dar error", () => {
+    expect(validarDatos(2, -10, 5)).toBe("El precio debe ser mayor que 0");
+  });
+
+  test("peso negativo debe dar error", () => {
+    expect(validarDatos(2, 10, -5)).toBe("El peso volumétrico no puede ser negativo");
+  });
+
+  test("datos correctos no deben dar error", () => {
+    expect(validarDatos(2, 10, 5)).toBe(null);
+  });
+
+});

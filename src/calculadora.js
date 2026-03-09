@@ -98,4 +98,21 @@ export function calcularDescuentoEspecialCliente(precioBase, cliente, categoria)
   return 0;
 }
 
+export function validarDatos(cantidad, precio, peso) {
+
+  if (cantidad <= 0 || isNaN(cantidad)) {
+    return "La cantidad debe ser mayor que 0";
+  }
+
+  if (precio <= 0 || isNaN(precio)) {
+    return "El precio debe ser mayor que 0";
+  }
+
+  if (peso < 0 || isNaN(peso)) {
+    return "El peso volumétrico no puede ser negativo";
+  }
+
+  return null;
+}
+
 export default mostrarCantidad;

@@ -7,7 +7,8 @@ import {
   calcularCostoEnvio,
   calcularCostoEnvioTotal,
   calcularDescuentoEnvioCliente,
-  calcularDescuentoEspecialCliente
+  calcularDescuentoEspecialCliente,
+  validarDatos
 } from "./calculadora.js";
 
 const form = document.querySelector("#cantidad-form");
@@ -25,6 +26,13 @@ form.addEventListener("submit", (event) => {
   const cantidad = Number(cantidadInput.value);
   const precio = Number(precioInput.value);
   const peso = Number(pesoInput.value);
+  
+  const error = validarDatos(cantidad, precio, peso);
+
+  if (error) {
+    resultado.innerHTML = `<strong>Error:</strong> ${error}`;
+    return;
+  } 
   const estado = estadoSelect.value; 
   const categoria = categoriaSelect.value;
   const cliente = clienteSelect.value;
@@ -42,6 +50,7 @@ form.addEventListener("submit", (event) => {
   const descuentoEnvio = calcularDescuentoEnvioCliente(costoEnvioTotal, cliente);
   const envioFinal = costoEnvioTotal - descuentoEnvio;
   const total = subtotal + impuesto + impuestoCategoria + envioFinal; 
+  
 
   resultado.innerHTML = `
     Precio base: ${precioBase} <br>
@@ -59,3 +68,5 @@ form.addEventListener("submit", (event) => {
     Total: ${total}
   `;
 });
+
+

@@ -378,9 +378,39 @@
     "testId": 15
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0c60b89138c130a201573997b111e9000d329616",
     "commitName": "feat: aplicar descuento fijo especial por cliente",
     "commitTimestamp": 1773086151268,
     "testId": 15
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 4,
+    "numTotalTests": 39,
+    "timestamp": 1773088665501,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 0,
+    "numTotalTests": 39,
+    "timestamp": 1773088683301,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 0,
+    "numTotalTests": 39,
+    "timestamp": 1773090154320,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar validacion de datos de entrada",
+    "commitTimestamp": 1773090437705,
+    "testId": 16
   }
 ]

@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0c60b89138c130a201573997b111e9000d329616",
     "author": "Grizzz88",
     "commit": {
       "date": "2026-03-09T19:55:49.000Z",
       "message": "feat: aplicar descuento fijo especial por cliente",
-      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/0c60b89138c130a201573997b111e9000d329616"
     },
     "stats": {
       "total": 38,
@@ -300,6 +300,25 @@
     },
     "coverage": 97.37,
     "test_count": 35,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mauricio",
+    "commit": {
+      "date": "2026-03-09T21:07:17.000Z",
+      "message": "feat: agregar validacion de datos de entrada",
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 60,
+      "additions": 55,
+      "deletions": 5,
+      "date": "2026-03-09"
+    },
+    "coverage": 97.78,
+    "test_count": 39,
     "failed_tests": 0,
     "conclusion": "success"
   }
