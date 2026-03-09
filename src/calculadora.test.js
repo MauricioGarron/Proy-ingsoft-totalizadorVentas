@@ -97,3 +97,36 @@ describe("Impuesto adicional por categoría", () => {
 
 });
 
+import { calcularCostoEnvio } from "./calculadora.js";
+
+describe("Costo de envío por peso volumétrico", () => {
+
+  it("peso entre 0 y 10 cuesta 0", () => {
+    expect(calcularCostoEnvio(5)).toEqual(0);
+  });
+
+  it("peso entre 11 y 20 cuesta 3.5", () => {
+    expect(calcularCostoEnvio(15)).toEqual(3.5);
+  });
+
+  it("peso entre 21 y 40 cuesta 5", () => {
+    expect(calcularCostoEnvio(30)).toEqual(5);
+  });
+
+  it("peso entre 41 y 80 cuesta 6", () => {
+    expect(calcularCostoEnvio(60)).toEqual(6);
+  });
+
+  it("peso entre 80 y 100 cuesta 6.5", () => {
+    expect(calcularCostoEnvio(90)).toEqual(6.5);
+  });
+
+  it("peso entre 101 y 200 cuesta 8", () => {
+    expect(calcularCostoEnvio(150)).toEqual(8);
+  });
+
+  it("peso mayor a 200 cuesta 9", () => {
+    expect(calcularCostoEnvio(250)).toEqual(9);
+  });
+
+});

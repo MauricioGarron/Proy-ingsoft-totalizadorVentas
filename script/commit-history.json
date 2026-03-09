@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7839df36f0dd6b50cd201872b969be513cad7c20",
     "author": "Grizzz88",
     "commit": {
       "date": "2026-03-09T18:18:37.000Z",
       "message": "Aplicar impuesto adicional por categoria",
-      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/7839df36f0dd6b50cd201872b969be513cad7c20"
     },
     "stats": {
       "total": 14084,
@@ -169,5 +169,24 @@
     "test_count": 18,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Grizzz88",
+    "commit": {
+      "date": "2026-03-09T18:47:12.000Z",
+      "message": "permitir ingresar peso volumetrico por unidad",
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 42,
+      "additions": 42,
+      "deletions": 0,
+      "date": "2026-03-09"
+    },
+    "coverage": 93.75,
+    "test_count": 25,
+    "failed_tests": 7,
+    "conclusion": "failure"
   }
 ]

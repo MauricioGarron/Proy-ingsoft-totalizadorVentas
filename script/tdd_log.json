@@ -216,9 +216,31 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7839df36f0dd6b50cd201872b969be513cad7c20",
     "commitName": "Aplicar impuesto adicional por categoria",
     "commitTimestamp": 1773080319494,
     "testId": 8
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 7,
+    "numTotalTests": 25,
+    "timestamp": 1773081788517,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 7,
+    "numTotalTests": 25,
+    "timestamp": 1773081920148,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "permitir ingresar peso volumetrico por unidad",
+    "commitTimestamp": 1773082033136,
+    "testId": 9
   }
 ]

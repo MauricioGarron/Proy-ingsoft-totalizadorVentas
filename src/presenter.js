@@ -10,6 +10,7 @@ import {
 const form = document.querySelector("#cantidad-form");
 const cantidadInput = document.querySelector("#cantidad-items");
 const precioInput = document.querySelector("#precio-item");
+const pesoInput = document.querySelector("#peso-volumetrico");
 const estadoSelect = document.querySelector("#estado"); 
 const categoriaSelect = document.querySelector("#categoria")
 const resultado = document.querySelector("#resultado");
@@ -19,6 +20,7 @@ form.addEventListener("submit", (event) => {
 
   const cantidad = Number(cantidadInput.value);
   const precio = Number(precioInput.value);
+  const peso = Number(pesoInput.value);
   const estado = estadoSelect.value; 
   const categoria = categoriaSelect.value;
 
@@ -33,6 +35,7 @@ form.addEventListener("submit", (event) => {
 
   resultado.innerHTML = `
     Precio base: ${precioBase} <br>
+    Peso volumétrico: ${peso} <br>
     Descuento Monto: ${descuentoMonto} <br>
     Descuento Categoria: ${descuentoCategoria} <br>
     Subtotal: ${subtotal} <br>
