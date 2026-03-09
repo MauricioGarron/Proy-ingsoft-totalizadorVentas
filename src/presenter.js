@@ -3,7 +3,8 @@ import {
   calcularDescuentoPorMonto,
   calcularImpuestoPorEstado,
   calcularDescuentoCategoria,
-  calcularImpuestoCategoria
+  calcularImpuestoCategoria,
+  calcularCostoEnvio
 
 } from "./calculadora.js";
 
@@ -26,6 +27,7 @@ form.addEventListener("submit", (event) => {
 
 
   const precioBase = calcularPrecioBase(cantidad, precio);
+  const costoEnvioUnidad = calcularCostoEnvio(peso);
   const descuentoMonto = calcularDescuentoPorMonto(precioBase); 
   const descuentoCategoria = calcularDescuentoCategoria(precioBase, categoria);
   const subtotal = precioBase - descuentoMonto - descuentoCategoria; 
@@ -36,6 +38,7 @@ form.addEventListener("submit", (event) => {
   resultado.innerHTML = `
     Precio base: ${precioBase} <br>
     Peso volumétrico: ${peso} <br>
+    Costo envío por unidad: ${costoEnvioUnidad} <br>
     Descuento Monto: ${descuentoMonto} <br>
     Descuento Categoria: ${descuentoCategoria} <br>
     Subtotal: ${subtotal} <br>

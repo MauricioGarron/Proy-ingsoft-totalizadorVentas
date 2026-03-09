@@ -238,9 +238,39 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6f2e112a38dc3f981cd321b96379d6cc294c8fa1",
     "commitName": "permitir ingresar peso volumetrico por unidad",
     "commitTimestamp": 1773082033136,
     "testId": 9
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 7,
+    "numTotalTests": 25,
+    "timestamp": 1773082292776,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 0,
+    "numTotalTests": 25,
+    "timestamp": 1773082299616,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 0,
+    "numTotalTests": 25,
+    "timestamp": 1773082369785,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementacion de calculo de costo de envio por unidad por peso volumetrico",
+    "commitTimestamp": 1773082466053,
+    "testId": 10
   }
 ]

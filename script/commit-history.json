@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6f2e112a38dc3f981cd321b96379d6cc294c8fa1",
     "author": "Grizzz88",
     "commit": {
       "date": "2026-03-09T18:47:12.000Z",
       "message": "permitir ingresar peso volumetrico por unidad",
-      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/6f2e112a38dc3f981cd321b96379d6cc294c8fa1"
     },
     "stats": {
       "total": 42,
@@ -188,5 +188,24 @@
     "test_count": 25,
     "failed_tests": 7,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Grizzz88",
+    "commit": {
+      "date": "2026-03-09T18:54:25.000Z",
+      "message": "feat: implementacion de calculo de costo de envio por unidad por peso volumetrico",
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 16,
+      "deletions": 1,
+      "date": "2026-03-09"
+    },
+    "coverage": 96.55,
+    "test_count": 25,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]
