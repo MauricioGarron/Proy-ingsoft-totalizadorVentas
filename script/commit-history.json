@@ -247,17 +247,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e66adcb92c5f2406600bc474d0dc7a2c9d7cba3d",
     "author": "Grizzz88",
     "commit": {
       "date": "2026-03-09T19:46:02.000Z",
       "message": "feat: agregar seleccion de tipo de cliente",
-      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/e66adcb92c5f2406600bc474d0dc7a2c9d7cba3d"
     },
     "stats": {
       "total": 45,
       "additions": 43,
       "deletions": 2,
+      "date": "2026-03-09"
+    },
+    "coverage": 96.97,
+    "test_count": 31,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Grizzz88",
+    "commit": {
+      "date": "2026-03-09T19:47:05.000Z",
+      "message": "feat: implementar descuento de envio por cliente",
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
       "date": "2026-03-09"
     },
     "coverage": 96.97,

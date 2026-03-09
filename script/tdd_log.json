@@ -334,9 +334,15 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e66adcb92c5f2406600bc474d0dc7a2c9d7cba3d",
     "commitName": "feat: agregar seleccion de tipo de cliente",
     "commitTimestamp": 1773085564597,
     "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar descuento de envio por cliente",
+    "commitTimestamp": 1773085626935,
+    "testId": 14
   }
 ]

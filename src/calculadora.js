@@ -71,4 +71,18 @@ export function calcularCostoEnvioTotal(costoUnidad, cantidad) {
   return costoUnidad * cantidad;
 }
 
+export function calcularDescuentoEnvioCliente(costoEnvio, cliente) {
+
+  const descuentos = {
+    normal: 0,
+    recurrente: 0.005,
+    antiguo: 0.01,
+    especial: 0.015
+  };
+
+  const tasa = descuentos[cliente] || 0;
+
+  return costoEnvio * tasa;
+}
+
 export default mostrarCantidad;
