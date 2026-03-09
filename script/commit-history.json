@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "209944b524d7f101931b575f8fc184727fecc012",
     "author": "Grizzz88",
     "commit": {
       "date": "2026-03-09T19:13:13.000Z",
       "message": "feat: implementar calculo de costo total de envio",
-      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/209944b524d7f101931b575f8fc184727fecc012"
     },
     "stats": {
       "total": 26,
@@ -224,6 +224,44 @@
     },
     "coverage": 96.67,
     "test_count": 27,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "209944b524d7f101931b575f8fc184727fecc012",
+    "author": "Grizzz88",
+    "commit": {
+      "date": "2026-03-09T19:41:47.000Z",
+      "message": "feat: agregar descuento de envio por tipo de cliente",
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/209944b524d7f101931b575f8fc184727fecc012"
+    },
+    "stats": {
+      "total": 59,
+      "additions": 57,
+      "deletions": 2,
+      "date": "2026-03-09"
+    },
+    "coverage": 96.97,
+    "test_count": 31,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Grizzz88",
+    "commit": {
+      "date": "2026-03-09T19:46:02.000Z",
+      "message": "feat: agregar seleccion de tipo de cliente",
+      "url": "https://github.com/MauricioGarron/Proy-ingsoft-totalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 45,
+      "additions": 43,
+      "deletions": 2,
+      "date": "2026-03-09"
+    },
+    "coverage": 96.97,
+    "test_count": 31,
     "failed_tests": 0,
     "conclusion": "success"
   }

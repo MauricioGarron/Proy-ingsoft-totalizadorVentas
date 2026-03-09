@@ -290,9 +290,53 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "209944b524d7f101931b575f8fc184727fecc012",
     "commitName": "feat: implementar calculo de costo total de envio",
     "commitTimestamp": 1773083595485,
     "testId": 11
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 4,
+    "numTotalTests": 31,
+    "timestamp": 1773084030118,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 4,
+    "numTotalTests": 31,
+    "timestamp": 1773084261759,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 4,
+    "numTotalTests": 31,
+    "timestamp": 1773084286183,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1773084459615,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "209944b524d7f101931b575f8fc184727fecc012",
+    "commitName": "feat: agregar descuento de envio por tipo de cliente",
+    "commitTimestamp": 1773085309011,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar seleccion de tipo de cliente",
+    "commitTimestamp": 1773085564597,
+    "testId": 13
   }
 ]

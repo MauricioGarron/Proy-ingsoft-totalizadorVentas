@@ -5,7 +5,8 @@ import {
   calcularDescuentoCategoria,
   calcularImpuestoCategoria,
   calcularCostoEnvio,
-  calcularCostoEnvioTotal
+  calcularCostoEnvioTotal,
+  calcularDescuentoEnvioCliente
 } from "./calculadora.js";
 
 const form = document.querySelector("#cantidad-form");
@@ -14,6 +15,7 @@ const precioInput = document.querySelector("#precio-item");
 const pesoInput = document.querySelector("#peso-volumetrico");
 const estadoSelect = document.querySelector("#estado"); 
 const categoriaSelect = document.querySelector("#categoria")
+const clienteSelect = document.querySelector("#cliente");
 const resultado = document.querySelector("#resultado");
 
 form.addEventListener("submit", (event) => {
@@ -24,6 +26,7 @@ form.addEventListener("submit", (event) => {
   const peso = Number(pesoInput.value);
   const estado = estadoSelect.value; 
   const categoria = categoriaSelect.value;
+  const cliente = clienteSelect.value;
 
 
   const precioBase = calcularPrecioBase(cantidad, precio);
@@ -34,13 +37,17 @@ form.addEventListener("submit", (event) => {
   const subtotal = precioBase - descuentoMonto - descuentoCategoria; 
   const impuestoCategoria = calcularImpuestoCategoria(subtotal, categoria);
   const impuesto = calcularImpuestoPorEstado(subtotal, estado); 
-  const total = subtotal + impuesto + impuestoCategoria + costoEnvioTotal; 
+  const descuentoEnvio = calcularDescuentoEnvioCliente(costoEnvioTotal, cliente);
+  const envioFinal = costoEnvioTotal - descuentoEnvio;
+  const total = subtotal + impuesto + impuestoCategoria + envioFinal; 
 
   resultado.innerHTML = `
     Precio base: ${precioBase} <br>
     Peso volumétrico: ${peso} <br>
     Costo envío por unidad: ${costoEnvioUnidad} <br>
     Costo envio total: ${costoEnvioTotal} <br>
+    Descuento envio cliente: ${descuentoEnvio} <br>
+    Envio final: ${envioFinal} <br>
     Descuento Monto: ${descuentoMonto} <br>
     Descuento Categoria: ${descuentoCategoria} <br>
     Subtotal: ${subtotal} <br>

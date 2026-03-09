@@ -144,3 +144,25 @@ describe("Costo total de envío", () => {
   });
 
 });
+
+import { calcularDescuentoEnvioCliente } from "./calculadora.js";
+
+describe("Descuento en costo de envío por tipo de cliente", () => {
+
+  it("cliente normal no tiene descuento", () => {
+    expect(calcularDescuentoEnvioCliente(100, "normal")).toEqual(0);
+  });
+
+  it("cliente recurrente tiene 0.5% de descuento", () => {
+    expect(calcularDescuentoEnvioCliente(100, "recurrente")).toEqual(0.5);
+  });
+
+  it("cliente antiguo recurrente tiene 1% de descuento", () => {
+    expect(calcularDescuentoEnvioCliente(100, "antiguo")).toEqual(1);
+  });
+
+  it("cliente especial tiene 1.5% de descuento", () => {
+    expect(calcularDescuentoEnvioCliente(100, "especial")).toEqual(1.5);
+  });
+
+});
