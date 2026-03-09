@@ -130,3 +130,17 @@ describe("Costo de envío por peso volumétrico", () => {
   });
 
 });
+
+import { calcularCostoEnvioTotal } from "./calculadora.js";
+
+describe("Costo total de envío", () => {
+
+  it("debería calcular costo total multiplicando envio por unidad por cantidad", () => {
+    expect(calcularCostoEnvioTotal(3.5, 2)).toEqual(7);
+  });
+
+  it("debería calcular correctamente otro caso", () => {
+    expect(calcularCostoEnvioTotal(5, 4)).toEqual(20);
+  });
+
+});

@@ -67,4 +67,8 @@ export function calcularCostoEnvio(peso) {
   return 9;
 }
 
+export function calcularCostoEnvioTotal(costoUnidad, cantidad) {
+  return costoUnidad * cantidad;
+}
+
 export default mostrarCantidad;

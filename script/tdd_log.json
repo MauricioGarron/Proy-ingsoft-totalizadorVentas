@@ -268,9 +268,31 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fde8ba9058e1dfe4b726d6bafd18c1a694fa4b18",
     "commitName": "feat: implementacion de calculo de costo de envio por unidad por peso volumetrico",
     "commitTimestamp": 1773082466053,
     "testId": 10
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 0,
+    "numTotalTests": 25,
+    "timestamp": 1773083306689,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 2,
+    "numTotalTests": 27,
+    "timestamp": 1773083333678,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo de costo total de envio",
+    "commitTimestamp": 1773083595485,
+    "testId": 11
   }
 ]
